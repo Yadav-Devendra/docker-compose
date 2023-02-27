@@ -1,0 +1,6 @@
+version: '3'
+services:
+  springboot-docker-compose-app:
+    image: springapp
+    ports:
+      - "8086:8080"
